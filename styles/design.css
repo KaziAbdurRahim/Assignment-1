@@ -8,10 +8,10 @@
 /* shared style */
 .btn-primary{
     color: #0D1321;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
-    padding: 20.4px 28.8px;
-    border-radius: 9.6px;
+    padding: 17px 24px;
+    border-radius: 8px;
     border-color: #0D1321;
     
 }
@@ -26,28 +26,28 @@ nav{
 
 }
 nav ul{
-    margin:45.6px 180px ;
+    margin:38px 150px ;
 
 }
 
 .nav-title{
-    font-size: 33.6;
-    margin:60px 180px;
-    width: 153.6;
+    font-size: 28px;
+    margin:50px 150px;
+    /* width: 153.6; */
 }
 /* header banner */
 
 .banner-container{
     background: url(../assets/Hero-bg.png);
-    max-width: 1728px;
-    max-height:782.4px ;
-    padding: 31.2px 265.2px 54px 265.2px;
+    max-width: 1440px;
+    max-height:652px ;
+    padding: 36px 203px 35px 203px;
 
 }
 .banner{   
     max-width:1197.6px ;
     max-height: 697.2px;
-    margin: 31.2px 265.2px 42px 265.2px;
+    /* margin: 31.2px 265.2px 42px 265.2px; */
     /* justify-content: center; */
 }
 
@@ -80,7 +80,7 @@ nav ul{
     font-weight: 400;
     max-width: 852px;
     max-height:52px;
-    padding: 0px  73px 0px  73px;
+    padding: 24px  73px 32px  73px;
     text-align: center;
 
 
@@ -98,6 +98,7 @@ nav ul{
     border-color: #0D1321;
     background-color: #0D1321;
     max-width: 244px;
+    max-height: 65px;
     /* max-height: 65px; */
    
  
