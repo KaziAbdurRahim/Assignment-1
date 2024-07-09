@@ -16,51 +16,73 @@
     
 }
 
+.section-title{
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+
+
+}
+
+.section-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
+}
+.bg{
+    background-color: #0D1321;
+}
 
 /*nav styles  */
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* margin: 50px 150px; */
+    /* margin: 0px 150px; */
 
 }
 nav ul{
-    margin:38px 150px ;
+    margin:38px 150px 0px 0px ;
 
 }
 
 .nav-title{
     font-size: 28px;
-    margin:50px 150px;
-    /* width: 153.6; */
+    /* margin:38px 150px; */
+    max-width:  150px;
+    max-height: 50px;
+    margin: 50px 0px 0px 150px;
+ 
 }
 /* header banner */
 
 .banner-container{
     background: url(../assets/Hero-bg.png);
-    max-width: 1440px;
-    max-height:652px ;
+    /* max-width: 1440px; */
+    /* max-height:652px ; */
     padding: 36px 203px 35px 203px;
+    margin: 26px auto;
 
 }
-.banner{   
-    max-width:1197.6px ;
-    max-height: 697.2px;
-    /* margin: 31.2px 265.2px 42px 265.2px; */
-    /* justify-content: center; */
+.banner{ 
+    background: url(../assets/Hero-bg.png);  
+    max-width:998px ;
+    max-height: 581px;
+    margin: auto;
+  
 }
 
 .profile{
 
     max-width:240.28px ;
     max-height: 240px;
-    padding: 0px 378.86px 0px 387.86px;
+    /* padding: auto; */
+    padding: 0px 378.86px 0px 378.86px;
 }
 .banner-content{
-    
     max-width: 988px;
     max-height: 309px;  
+   
 }
 
 
@@ -72,6 +94,7 @@ nav ul{
     max-height: 136px;
     text-align: center;
     padding: 0px 0px 0px 0px;
+   
 }
 
 .banner-description{
@@ -80,7 +103,7 @@ nav ul{
     font-weight: 400;
     max-width: 852px;
     max-height:52px;
-    padding: 24px  73px 32px  73px;
+    padding: 0px  73px 0px  73px;
     text-align: center;
 
 
@@ -105,3 +128,5 @@ nav ul{
   
 
 }
+/* section */
+
