@@ -33,6 +33,10 @@
     background-color: #0D1321;
 }
 
+.btn-learn-more{
+
+}
+
 /*nav styles  */
 nav{
     display: flex;
@@ -128,5 +132,73 @@ nav ul{
   
 
 }
+/* main */
 /* section */
+.btn-learn-more{
+    color: #0D1321;
+    font-weight: 600;
+    border-color: #0D1321;
+
+}
+.why-web-dev{
+    background-color:#f9f7f7 ;
+    padding: 99px;
+    margin:84px 136px 0px 136px ;
+}
+.section1{
+    display: flex;
+    background-color:#FFFFFF ;
+    padding: 48px;
+    
+}
+.section2{
+    display: flex;
+    background-color:#f9f7f7 ;
+    padding: 48px;
+}
+.section3{
+    display: flex;
+    background-color:#FFFFFF ;
+    padding: 48px;
+}
+.section-title{
+    color: #0D1321;
+    text-align: center;
+
+}
+.section-description  {
+    color: #0D1321;
+    text-align: center;
+
+}
+.section0{
+    background-color:#f9f7f7 ;
+    padding: 48px;
+
+}
+.my-isparation{
+    color: #0D1321;
+    text-align: center;
+    margin: 90px 148px 0px 148px ;
+
+}
+.vedio-description{
+    color: #0D1321;
+    text-align: center;
+    font-weight: 400;
+
+}
+.vv{
+   border-radius:  16px;
+   
+   padding: 32px;
+   border: 2px solid #000000;
+   
+  
+}
+.vvv{ border-radius:  16px;
+    overflow:hidden ;
+    width: 100%;
+
+}
 
