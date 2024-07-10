@@ -33,9 +33,7 @@
     background-color: #0D1321;
 }
 
-.btn-learn-more{
 
-}
 
 /*nav styles  */
 nav{
@@ -138,6 +136,10 @@ nav ul{
     color: #0D1321;
     font-weight: 600;
     border-color: #0D1321;
+    max-width: 171px;
+    max-height: 47px;
+    font-size: 20px;
+    padding: 12px 20px;
 
 }
 .why-web-dev{
@@ -163,12 +165,12 @@ nav ul{
 }
 .section-title{
     color: #0D1321;
-    text-align: center;
+    text-align: left;
 
 }
 .section-description  {
     color: #0D1321;
-    text-align: center;
+    text-align: left;
 
 }
 .section0{
@@ -176,9 +178,20 @@ nav ul{
     padding: 48px;
 
 }
+.section-title0 {
+    text-align: center;
+
+}
+.section-description0{
+    text-align: center;
+    font-weight: 400;
+
+}
 .my-isparation{
     color: #0D1321;
     text-align: center;
+    max-width: 1140px;
+    max-height: 614px;
     margin: 90px 148px 0px 148px ;
 
 }
@@ -188,9 +201,11 @@ nav ul{
     font-weight: 400;
 
 }
-.vv{
+.vv{display: flex;
+    align-items: center;
    border-radius:  16px;
-   
+   max-width: 1140px;
+   max-height: 614px;
    padding: 32px;
    border: 2px solid #000000;
    
@@ -200,5 +215,24 @@ nav ul{
     overflow:hidden ;
     width: 100%;
 
+}
+.last{
+    display: flex;
+    margin: 80px 0px 0px 0px;
+    padding: 32px 105px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.footer-col1{
+   
+    /* margin-top: 32px; */
+}
+footer ul li{
+    list-style: none;
+    margin-left: 32px;
+}
+footer ul{
+    display: flex;
 }
 
