@@ -237,4 +237,22 @@ footer ul li{
 footer ul{
     display: flex;
 }
-
+.more{
+    color: black;
+}
+.jav-ht-css{
+    display: flex;
+}
+.htmll{
+    background-color: #FF4C1E;
+    padding: 40px;
+}
+.csss{
+    background-color: #004CE8;
+    margin: 0px 24px;
+    padding: 40px;
+}
+.jaa{
+    background-color: #FFDF00;
+    padding: 40px;
+}
