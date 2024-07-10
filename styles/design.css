@@ -190,7 +190,7 @@ nav ul{
 .my-isparation{
     color: #0D1321;
     text-align: center;
-    max-width: 1140px;
+    /* max-width: 1140px; */
     max-height: 614px;
     margin: 90px 148px 0px 148px ;
 
@@ -201,10 +201,12 @@ nav ul{
     font-weight: 400;
 
 }
-.vv{display: flex;
+.vv{
+    /* display: flex; */
     align-items: center;
    border-radius:  16px;
-   max-width: 1140px;
+   /* max-width: 1140px; */
+   margin-top: 48px;
    max-height: 614px;
    padding: 32px;
    border: 2px solid #000000;
@@ -216,9 +218,9 @@ nav ul{
     width: 100%;
 
 }
-.last{
+#last{
     display: flex;
-    margin: 80px 0px 0px 0px;
+    margin: 100px 0px 0px 0px;
     padding: 32px 105px;
     align-items: center;
     justify-content: space-between;
