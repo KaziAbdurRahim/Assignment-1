@@ -1,354 +1,321 @@
-
 .azeret-mono-normal {
-  font-family: "Azeret Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
 }
 /* shared style */
-.btn-primary{
-    color: #0D1321;
+.btn-primary {
+    color: #0d1321;
     font-size: 20px;
     font-weight: 600;
     padding: 17px 24px;
     border-radius: 8px;
-    border-color: #0D1321;
-    
+    border-color: #0d1321;
 }
 
-.section-title{
+.section-title {
     font-size: 32px;
     font-weight: 800;
-    color: #0D1321;
-
-
+    color: #0d1321;
 }
 
-.section-description{
+.section-description {
     font-size: 16px;
     font-weight: 400;
-    color: #0D1321;
+    color: #0d1321;
 }
-.bg{
-    background-color: #0D1321;
+.bg {
+    background-color: #0d1321;
 }
-
-
 
 /*nav styles  */
-nav{
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     /* margin: 0px 150px; */
-
 }
-nav ul{
-    margin:38px 150px 0px 0px ;
-
+nav ul {
+    margin: 38px 150px 0px 0px;
 }
 
-.nav-title{
+.nav-title {
     font-size: 28px;
     /* margin:38px 150px; */
-    max-width:  150px;
+    max-width: 150px;
     max-height: 50px;
     margin: 50px 0px 0px 150px;
- 
 }
 /* header banner */
 
-.banner-container{
+.banner-container {
     background: url(../assets/Hero-bg.png);
     /* max-width: 1440px; */
     /* max-height:652px ; */
     padding: 36px 203px 35px 203px;
     margin: 26px auto;
-
 }
-.banner{ 
-    background: url(../assets/Hero-bg.png);  
-    max-width:998px ;
+.banner {
+    background: url(../assets/Hero-bg.png);
+    max-width: 998px;
     max-height: 581px;
     margin: auto;
-  
 }
 
-.profile{
-
-    max-width:240.28px ;
+.profile {
+    max-width: 240.28px;
     max-height: 240px;
     /* padding: auto; */
     padding: 0px 378.86px 0px 378.86px;
 }
-.banner-content{
+.banner-content {
     max-width: 988px;
-    max-height: 309px;  
-   
+    max-height: 309px;
 }
 
-
-.banner-title{
+.banner-title {
     font-size: 48px;
     font-weight: 800;
-    color: #0D1321;
-    max-width:988px ;
+    color: #0d1321;
+    max-width: 988px;
     max-height: 136px;
     text-align: center;
     padding: 0px 0px 0px 0px;
-   
 }
 
-.banner-description{
+.banner-description {
     font-size: 16px;
-    color: #0D1321;
+    color: #0d1321;
     font-weight: 400;
     max-width: 852px;
-    max-height:52px;
-    padding: 0px  73px 0px  73px;
+    max-height: 52px;
+    padding: 0px 73px 0px 73px;
     text-align: center;
-
-
 }
-.btn-banner-container{
+.btn-banner-container {
     padding: 0px 377px;
 }
 
-.btn-contact{
-    color: #FFFFFF;
+.btn-contact {
+    color: #ffffff;
     font-size: 20px;
     font-weight: 600;
     padding: 21px 24px;
     border-radius: 8px;
-    border-color: #0D1321;
-    background-color: #0D1321;
+    border-color: #0d1321;
+    background-color: #0d1321;
     max-width: 244px;
     max-height: 65px;
     /* max-height: 65px; */
-   
- 
-  
-
 }
 /* main */
 /* section */
-.btn-learn-more{
-    color: #0D1321;
+.btn-learn-more {
+    color: #0d1321;
     font-weight: 600;
-    border-color: #0D1321;
+    border-color: #0d1321;
     max-width: 171px;
     max-height: 47px;
     font-size: 20px;
     padding: 12px 20px;
-
 }
-.why-web-dev{
-    background-color:#f9f7f7 ;
+.why-web-dev {
+    background-color: #f9f7f7;
     padding: 99px;
-    margin:84px 136px 0px 136px ;
+    margin: 84px 136px 0px 136px;
 }
-.section1{
+.section1 {
     display: flex;
-    background-color:#FFFFFF ;
-    padding: 48px;
-    
-}
-.section2{
-    display: flex;
-    background-color:#f9f7f7 ;
+    background: linear-gradient(to right, #ffffff, #f9f7f7);
     padding: 48px;
 }
-.section3{
+.section2 {
     display: flex;
-    background-color:#FFFFFF ;
+    background-color: #f9f7f7;
     padding: 48px;
 }
-.section-title{
-    color: #0D1321;
+.section3 {
+    display: flex;
+    background: linear-gradient(to right, #ffffff, #f9f7f7);
+    padding: 48px;
+}
+.section-title {
+    color: #0d1321;
     text-align: left;
-
 }
-.section-description  {
-    color: #0D1321;
+.section-description {
+    color: #0d1321;
     text-align: left;
-
 }
-.section0{
-    background-color:#f9f7f7 ;
+.section0 {
+    background-color: #f9f7f7;
     padding: 48px;
-
 }
 .section-title0 {
     text-align: center;
-
 }
-.section-description0{
+.section-description0 {
     text-align: center;
     font-weight: 400;
-
 }
-.my-isparation  {
-    color: #0D1321;
+.my-isparation {
+    color: #0d1321;
     text-align: center;
     /* max-width: 1140px; */
     max-height: 614px;
-    margin: 90px 148px 0px 148px ;
-
+    margin: 90px 148px 0px 148px;
 }
-.current-title{
-    color: #0D1321;
+.current-title {
+    color: #0d1321;
     text-align: center;
     /* max-width: 1140px; */
-  
-
-
 }
 .vedio-description {
-    color: #0D1321;
+    color: #0d1321;
     text-align: center;
     font-weight: 400;
-
 }
 .current-description {
-    color: #0D1321;
+    color: #0d1321;
     text-align: center;
     font-weight: 400;
-    margin-top:24px;
+    margin-top: 24px;
     margin-bottom: 48px;
-
 }
-.vv{
+.vv {
     /* display: flex; */
     align-items: center;
-   border-radius:  16px;
-   /* max-width: 1140px; */
-   margin-top: 48px;
-   max-height: 614px;
-   padding: 32px;
-   border: 2px solid #000000;
-   
-  
+    border-radius: 16px;
+    /* max-width: 1140px; */
+    margin-top: 48px;
+    max-height: 614px;
+    padding: 32px;
+    border: 2px solid #000000;
 }
-.vvv{ border-radius:  16px;
-    overflow:hidden ;
+.vvv {
+    border-radius: 16px;
+    overflow: hidden;
     width: 100%;
-
 }
-#last{
+#last {
     display: flex;
     margin: 100px 0px 0px 0px;
     padding: 32px 105px;
     align-items: center;
     justify-content: space-between;
     background-color: #f0ebe9;
-
 }
 
-footer ul li{
+footer ul li {
     list-style: none;
     margin-left: 32px;
 }
-footer ul{
+footer ul {
     display: flex;
 }
-.more{
+.more {
     color: black;
 }
-.jav-ht-css{
+.jav-ht-css {
     display: flex;
 }
-.htmll{
+.htmll {
     background-color: #f5e4e0;
     padding: 40px;
 }
-.csss{
+.csss {
     background-color: #d6dde9;
     margin: 0px 24px;
     padding: 40px;
 }
-.jaa{
+.jaa {
     background-color: #f5f2e3;
     padding: 40px;
 }
-.pp{
+.pp {
     font-size: 16px;
     font-weight: 400;
     padding: 24px 0px;
 }
-.my-current-target{
-    margin:284px 150px 0px 150px ;
+.my-current-target {
+    margin: 284px 150px 0px 150px;
     max-height: 1437px;
-
 }
-.nextt{
+.nextt {
     margin-top: 111px;
-    margin-bottom:48px ;
-
+    margin-bottom: 48px;
 }
-.mynext-target{
+.mynext-target {
     display: flex;
     padding: 40px;
     margin: 24px 0px;
     border: 2px solid #000000;
-    border-radius:  16px;
-   
+    border-radius: 16px;
 }
-.gg{
+.gg {
     margin-left: 24px;
 }
-.support{
+.support {
     background-image: url(../assets/handshake.jpg);
     margin: 80px 150px 49px 150px;
     padding: 64px 48px;
     border-radius: 16px;
+    background-size: cover;
+    background-position: center;
 }
-.nnnn{
-    color: #FFFFFF;
+.nnnn {
+    color: #ffffff;
     font-weight: bold;
     font-size: 32px;
     text-align: center;
 }
-.need-description{
+.need-description {
     font-weight: 400;
     font-size: 16px;
-    color: #FFFFFF;
+    color: #ffffff;
     padding-top: 16px;
-    padding-bottom:24px ;
+    padding-bottom: 24px;
     text-align: center;
     padding: 0px 62px 16px 62px;
 }
-.need{
+.need {
     padding: 64px 48px;
 }
-.ss{
+.ss {
     padding: 17px 20px;
     font-size: 20px;
-    font-weight: 600 ;
+    font-weight: 600;
     border-radius: 8px;
     max-width: 120px;
     max-height: 57px;
-    
-
 }
-.tag{
-    /* display: flex; */
-   
-    /* width: 100%;    */
+.feedback {
     display: flex;
-    padding: 24px;
-   justify-self: center;
-
+    justify-content: center;
 }
-.tg{
-    
-    
+.feedback-input {
+    height: 40px;
+    width: 300px;
+    border-radius: 8px;
+    padding: 5px 20px;
+}
+.feedback-btn {
+    font-size: large;
+    padding: 10px 20px;
+    margin-left: 10px;
+    border-radius: 8px;
+}
+.tg {
     padding: px 280px 0px 280px;
 }
-#lst{
-
-    
+#lst {
     max-width: 548px;
     max-height: 57px;
     padding: 19px 20px;
     border-radius: 8px;
+}
+
+.ins-description{
+    font-weight: 400;
 }
