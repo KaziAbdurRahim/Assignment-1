@@ -240,6 +240,7 @@ nav ul{
     padding: 32px 105px;
     align-items: center;
     justify-content: space-between;
+    background-color: #f0ebe9;
 
 }
 
@@ -276,6 +277,7 @@ footer ul{
 }
 .my-current-target{
     margin:284px 150px 0px 150px ;
+    max-height: 1437px;
 
 }
 .nextt{
@@ -298,6 +300,7 @@ footer ul{
     background-image: url(../assets/handshake.jpg);
     margin: 80px 150px 49px 150px;
     padding: 64px 48px;
+    border-radius: 16px;
 }
 .nnnn{
     color: #FFFFFF;
@@ -312,13 +315,40 @@ footer ul{
     padding-top: 16px;
     padding-bottom:24px ;
     text-align: center;
+    padding: 0px 62px 16px 62px;
+}
+.need{
+    padding: 64px 48px;
 }
 .ss{
     padding: 17px 20px;
     font-size: 20px;
     font-weight: 600 ;
+    border-radius: 8px;
+    max-width: 120px;
+    max-height: 57px;
+    
 
 }
 .tag{
+    /* display: flex; */
+   
+    /* width: 100%;    */
     display: flex;
+    padding: 24px;
+   justify-self: center;
+
+}
+.tg{
+    
+    
+    padding: px 280px 0px 280px;
+}
+#lst{
+
+    
+    max-width: 548px;
+    max-height: 57px;
+    padding: 19px 20px;
+    border-radius: 8px;
 }
