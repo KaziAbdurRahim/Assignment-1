@@ -187,7 +187,7 @@ nav ul{
     font-weight: 400;
 
 }
-.my-isparation{
+.my-isparation  {
     color: #0D1321;
     text-align: center;
     /* max-width: 1140px; */
@@ -195,10 +195,26 @@ nav ul{
     margin: 90px 148px 0px 148px ;
 
 }
-.vedio-description{
+.current-title{
+    color: #0D1321;
+    text-align: center;
+    /* max-width: 1140px; */
+  
+
+
+}
+.vedio-description {
     color: #0D1321;
     text-align: center;
     font-weight: 400;
+
+}
+.current-description {
+    color: #0D1321;
+    text-align: center;
+    font-weight: 400;
+    margin-top:24px;
+    margin-bottom: 48px;
 
 }
 .vv{
@@ -226,10 +242,7 @@ nav ul{
     justify-content: space-between;
 
 }
-.footer-col1{
-   
-    /* margin-top: 32px; */
-}
+
 footer ul li{
     list-style: none;
     margin-left: 32px;
@@ -244,15 +257,68 @@ footer ul{
     display: flex;
 }
 .htmll{
-    background-color: #FF4C1E;
+    background-color: #f5e4e0;
     padding: 40px;
 }
 .csss{
-    background-color: #004CE8;
+    background-color: #d6dde9;
     margin: 0px 24px;
     padding: 40px;
 }
 .jaa{
-    background-color: #FFDF00;
+    background-color: #f5f2e3;
     padding: 40px;
+}
+.pp{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 24px 0px;
+}
+.my-current-target{
+    margin:284px 150px 0px 150px ;
+
+}
+.nextt{
+    margin-top: 111px;
+    margin-bottom:48px ;
+
+}
+.mynext-target{
+    display: flex;
+    padding: 40px;
+    margin: 24px 0px;
+    border: 2px solid #000000;
+    border-radius:  16px;
+   
+}
+.gg{
+    margin-left: 24px;
+}
+.support{
+    background-image: url(../assets/handshake.jpg);
+    margin: 80px 150px 49px 150px;
+    padding: 64px 48px;
+}
+.nnnn{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+}
+.need-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-top: 16px;
+    padding-bottom:24px ;
+    text-align: center;
+}
+.ss{
+    padding: 17px 20px;
+    font-size: 20px;
+    font-weight: 600 ;
+
+}
+.tag{
+    display: flex;
 }
